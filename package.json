@@ -1,0 +1,29 @@
+{
+  "name": "fb-posts",
+  "version": "1.0.0",
+  "description": "Get facebook posts powered by event emitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidyen1124/fb-posts.git"
+  },
+  "keywords": [
+    "facebook",
+    "posts",
+    "event",
+    "emitter"
+  ],
+  "author": "David",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidyen1124/fb-posts/issues"
+  },
+  "homepage": "https://github.com/davidyen1124/fb-posts#readme",
+  "dependencies": {
+    "fb-access-token": "^0.1.2",
+    "fbgraph": "^1.1.0"
+  }
+}
