@@ -1,5 +1,7 @@
 # fb-posts
 
+[![NPM](https://nodei.co/npm/fb-posts.png)](https://npmjs.org/package/fb-posts) [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
 Get facebook page posts using graph api and `event emitter`
 
 ```
