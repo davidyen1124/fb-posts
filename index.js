@@ -20,6 +20,7 @@ var fbPosts = function (username, password, pageId, config) {
   }
 
   var stop = false
+  var count = 0
 
   var getPosts = function (err, res) {
     if (err) {
@@ -41,8 +42,12 @@ var fbPosts = function (username, password, pageId, config) {
     res.data.forEach(function (post) {
       if (!post.id || !post.link) {
         return
+      } else if (config.max && config.max <= count) {
+        stop = true
+        return
       }
 
+      count++
       engine.emit('found', post)
     })
 
