@@ -4,6 +4,8 @@
 [![npm](https://img.shields.io/npm/v/fb-posts.svg)](https://www.npmjs.com/package/fb-posts)
 [![david](https://david-dm.org/davidyen1124/fb-posts.svg)](https://david-dm.org/davidyen1124/fb-posts)
 
+
+## Install:
 Get facebook page posts using graph api and `event emitter`
 
 ```
@@ -33,3 +35,5 @@ engine.on('error', function (err) {
 })
 
 ```
+
+### Feel free to open issues and PRs
