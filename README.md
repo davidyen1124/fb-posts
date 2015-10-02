@@ -15,10 +15,11 @@ npm install fb-posts
 ## Usage
 
 ```javascript
-var fbPosts = require('./engine')
+var fbPosts = require('fb-posts')
 
 var engine = fbPosts('USERNAME', 'PASSWORD', 'PAGE_ID', {
-  fields: ['link'] // or any fields you want
+  fields: ['link'], // or any fields you want
+  max: 10 // max posts
 })
 engine.start()
 
