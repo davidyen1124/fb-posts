@@ -40,9 +40,7 @@ var fbPosts = function (username, password, pageId, config) {
     }
 
     res.data.forEach(function (post) {
-      if (!post.id || !post.link) {
-        return
-      } else if (config.max && config.max <= count) {
+      if (config.max && config.max <= count) {
         stop = true
         return
       }
